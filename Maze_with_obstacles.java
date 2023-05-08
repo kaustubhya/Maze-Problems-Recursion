@@ -13,7 +13,7 @@ public class Maze_with_obstacles {
 
 
     static void pathRestrictions(String p, boolean[][] maze, int r, int c) {
-        if(r == maze.length - 1 && c == maze.length - 1) {
+        if(r == maze.length - 1 && c == maze[0].length - 1) {
         System.out.println(p);
         return;
         }
